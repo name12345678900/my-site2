@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>19</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="css.css" rel="stylesheet">
+  </head>
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Главная страница</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Войти</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Товар
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Свечи</a></li>
+            <li><a class="dropdown-item" href="#">Посуда</a></li>
+          </ul>
+        </li>
+    
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Корзина</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Поиск</button>
+      </form>
+    </div>
+  </div>
+            </nav>
+        </header>
+        <section class="mt-5 ms-5" id="slog">
+            <div class="card mb-3 p-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-3 pt-4">
+                        <img src="img/ава.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                <div class="col-md-9">
+                    <div class="card-body">
+                        <h5 class="card-title">Вход</h5>
+
+                        <div class="mb-3 row">
+            <label for="staticEmail" class="col-sm-3 col-form-label">Логин</label>
+            <div class="col-sm-7">
+                <input type="text" class="form-control">
+            </div>
+                        </div>
+                        <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-3 col-form-label">Пароль</label>
+            <div class="col-sm-7">
+                <input type="password" class="form-control" id="inputPassword">
+            </div>
+            <button type="button" class="btn btn-outline-primary mt-4">Войти</button>
+                        </div>
+                    
+                        
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </body>
+</html>
